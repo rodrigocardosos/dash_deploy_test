@@ -15,7 +15,7 @@ import os
 
 ### Dash creation ###
 app = Dash(__name__, suppress_callback_exceptions=True)
-
+server = app.server
 
 
 ### First page layout ###
