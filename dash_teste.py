@@ -2,8 +2,6 @@
 from dash import Dash, html, dcc, dash_table, callback, Output, Input, State, dash_table, exceptions
 import pandas as pd 
 import numpy as np
-import ipywidgets as widgets
-from IPython.display import display
 import plotly.express as px
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
